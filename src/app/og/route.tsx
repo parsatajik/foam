@@ -30,7 +30,7 @@ export async function GET(req: NextRequest) {
           fontWeight: 600,
         }}
       >
-        <div
+        {/* <div
           style={{
             position: "relative",
             display: "flex",
@@ -87,7 +87,7 @@ export async function GET(req: NextRequest) {
             borderRadius: 20,
             zIndex: 1,
           }}
-        />
+        /> */}
       </div>
     ),
     {
