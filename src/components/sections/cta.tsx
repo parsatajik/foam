@@ -3,6 +3,7 @@ import Section from "@/components/section";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function CtaSection() {
   return (
@@ -20,7 +21,12 @@ export default function CtaSection() {
             "w-full sm:w-auto text-background flex gap-2"
           )}
         >
-          <Icons.logo className="h-6 w-6" />
+          <Image
+            src="/logo-white.png"
+            alt="brand-logo"
+            width={20}
+            height={20}
+          />
           Get started for free
         </Link>
       </div>
