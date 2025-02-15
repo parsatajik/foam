@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 
@@ -145,52 +145,52 @@ export const siteConfig = {
   ],
   faqs: [
     {
-      question: "What is acme.ai?",
+      question: "What is Foam?",
       answer: (
         <span>
-          acme.ai is a platform that helps you build and manage your AI-powered
-          applications. It provides tools and services to streamline the
-          development and deployment of AI solutions.
+          In 2023 alone, companies lost $2.2T to production software errors.
+          Until today, companies could not build highly effective tools to
+          resolve these errors. We are building Foam to provide instant code
+          fixes to production software errors.
         </span>
       ),
     },
     {
-      question: "How can I get started with acme.ai?",
+      question: "How can I get started with Foam?",
       answer: (
         <span>
-          You can get started with acme.ai by signing up for an account on our
-          website, creating a new project, and following our quick-start guide.
-          We also offer tutorials and documentation to help you along the way.
+          All you need is a Sentry organization, GitHub repository, and a Slack
+          workspace. You can connect these to Foam in the settings page and
+          we&apos;ll start fixing errors in your code.
         </span>
       ),
     },
     {
-      question: "What types of AI models does acme.ai support?",
+      question: "What types of AI models does Foam support?",
       answer: (
         <span>
-          acme.ai supports a wide range of AI models, including but not limited
-          to natural language processing, computer vision, and predictive
+          Foam supports a wide range of AI models, including but not limited to
+          natural language processing, computer vision, and predictive
           analytics. We continuously update our platform to support the latest
           AI technologies.
         </span>
       ),
     },
     {
-      question: "Is acme.ai suitable for beginners in AI development?",
+      question: "Is Foam suitable for enterprise companies?",
       answer: (
         <span>
-          Yes, acme.ai is designed to be user-friendly for both beginners and
-          experienced developers. We offer intuitive interfaces, pre-built
-          templates, and extensive learning resources to help users of all skill
-          levels create AI-powered applications.
+          Yes, Foam is suitable for enterprise companies. We offer a range of
+          features and integrations to help you automate your workflows and
+          improve your operations.
         </span>
       ),
     },
     {
-      question: "What kind of support does acme.ai provide?",
+      question: "What kind of support does Foam provide?",
       answer: (
         <span>
-          acme.ai provides comprehensive support including documentation, video
+          Foam provides comprehensive support including documentation, video
           tutorials, a community forum, and dedicated customer support. We also
           offer premium support plans for enterprises with more complex needs.
         </span>
@@ -233,6 +233,11 @@ export const siteConfig = {
           href: "#",
           text: "Twitter",
           icon: <FaTwitter />,
+        },
+        {
+          href: "https://www.linkedin.com/company/foamai/",
+          text: "LinkedIn",
+          icon: <FaLinkedin />,
         },
         {
           href: "#",
